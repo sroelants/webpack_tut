@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'IBMPLex Sans';
+    src: url('./IBMPlexSans-Bold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
 .hello {
+  font-family: 'IBMPlex Sans';
   color: red;
   background: url('./icon.png');
 }
