@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'IBMPlex Sans';
-    src: url('./IBMPlexSans-Bold.ttf') format('ttf');
+    font-family: 'IBMPlex';
+    src: url('./IBMPlexSans-Bold.ttf') ;
     font-weight: 600;
     font-style: normal;
 }
+
 .hello {
-  font-family: 'IBMPlex Sans';
+  font-family: 'IBMPlex';
   color: red;
   background: url('./icon.png');
 }
