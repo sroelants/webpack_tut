@@ -7,21 +7,17 @@ module.exports = {
     entry: {
         app: './src/index.js',
     },
-    devtool: 'inline-source-map',
     devServer: {
         contentBase: './dist',
-        hot: true
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
             title: 'Output Management'
         }),
-        new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()
     ],
     output: {
-        filename: '[name].bundle.js',
+        filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist') 
         // npm path module resolves this into an absolute path
     }
