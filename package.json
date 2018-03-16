@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sroelants/webpack_tut#readme",
   "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12"
   },
